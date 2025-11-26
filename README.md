@@ -3,7 +3,8 @@
 
 
 
-Please complete the following setup **before** attending the workshop. This will ensure we can focus on learning rather than troubleshooting installation issues.
+Please complete the following setup **before** attending the workshop. This will ensure we can focus on learning rather than troubleshooting installation issues. If you have not done this before the workshop, due to time constraints, I will not help during the class.
+
 
 ---
 
