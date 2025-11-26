@@ -41,9 +41,7 @@ You should see something like `git version 2.x.x`
 ### 2. GitHub Account
 
 - Create a free account at [github.com](https://github.com)
-- **Important:** Remember your username and password
 - Consider enabling Two-Factor Authentication (2FA) for security
-- (Optional) Add a profile picture and bio
 
 ---
 
@@ -125,12 +123,6 @@ A visual interface for Git operations:
 - Download from [desktop.github.com](https://desktop.github.com)
 - Helpful if you're uncomfortable with command line
 
-### SSH Key Setup (Advanced)
-For passwordless GitHub access:
-1. Generate a key: `ssh-keygen -t ed25519 -C "your.email@example.com"`
-2. Add to GitHub: Settings → SSH and GPG keys → New SSH key
-3. Paste contents of `~/.ssh/id_ed25519.pub`
-
 ---
 
 ## Pre-Workshop Checklist
@@ -141,28 +133,10 @@ Please verify each item before the workshop:
 - [ ] You have a GitHub account and remember your login
 - [ ] Git is configured with your name and email
 - [ ] Jupyter is installed (`jupyter --version` works)
-- [ ] RISE is installed (slideshow icon appears in Jupyter toolbar)
+- [ ] RISE is installed (slideshow icon appears in Jupyter toolbar, this is optional)
 - [ ] You have a text editor installed
 - [ ] You can open a terminal/command prompt
 
----
-
-## Troubleshooting
-
-### "git is not recognized as a command"
-- Windows: Restart your terminal, or use Git Bash specifically
-- Mac/Linux: Reinstall Git and restart terminal
-
-### "jupyter: command not found"
-- Make sure Python/Anaconda is in your PATH
-- Try: `python -m jupyter notebook`
-
-### RISE slideshow button not appearing
-- Make sure you're in a notebook (not JupyterLab by default)
-- Try: `jupyter nbextension enable rise --py --sys-prefix`
-
-### Need help?
-Contact the instructor before the workshop if you encounter issues.
 
 ---
 
@@ -170,7 +144,6 @@ Contact the instructor before the workshop if you encounter issues.
 
 - **Laptop** with the above software installed
 - **Charger** (2-hour workshop)
-- **Notebook/pen** for notes (optional)
 
 ---
 
